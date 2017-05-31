@@ -1,0 +1,22 @@
+var array = ["IT IS CERTAIN", 
+             "IT IS DECIDEDLY SO",
+             "WITHOUT A DOUBT", 
+             "YES, DEFINITELY", 
+             "YOU MAY RELY ON IT", 
+             "AS I SEE IT, YES",
+             "MOST LIKELY",
+             "OUTLOOK GOOD", 
+             "YES", 
+             "SIGNS POINT TO YES",
+             "REPLY HAZY TRY AGAIN", 
+             "ASK AGAIN LATER", 
+             "BETTER NOT TELL YOU NOW",
+             "CANNOT PREDICT NOW",
+             "ASK AGAIN",
+             "DON'T COUNT ON IT",
+             "NO", 
+             "MY SOURCES SAY NO", 
+             "OUTLOOK NOT SO GOOD", 
+             "VERY DOUBTFUL"];
+
+document.getElementById("shakeButton").onclick= function() {document.getElementById("answer").innerHTML=array[Math.floor(Math.random() * array.length)]};

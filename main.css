@@ -1,0 +1,42 @@
+body{
+  display:flex;
+  align-items:center;
+  flex-direction:column;
+  background-color:#e0ccd3;
+  }
+
+h1{
+  font-family: 'Roboto Slab', serif;
+  font-size:3em;
+  color:#818382;
+  margin:5% 0 ;}
+
+#space{
+  display:flex;
+  align-items:center;
+  flex-direction:column;
+  background-color:#818382;
+  height:250px;
+  width:250px;
+  border-radius:50%;
+  margin:0 auto;}
+
+p{display:flex;
+  align-items:center;
+  text-align:center;
+  margin-top: 10% ;
+  height:35%;
+  width:35%;
+  border-radius:50%;
+  padding:5%;
+  
+  background-color:#33C7FF;
+  color: #e7e5ef;
+  font-size: 120%;
+  font-family: 'Alegreya Sans SC', sans-serif;}
+
+i{color:#33C7FF;}
+
+footer{
+  color:#818382;
+  margin-top:5%;}
